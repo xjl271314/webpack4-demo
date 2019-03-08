@@ -1,0 +1,26 @@
+$titleColor:pink;
+
+$baseMargin:10px;
+.title{
+    color: $titleColor;
+}
+
+.flex-box{
+    display: flex;
+    width:600px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: $baseMargin;
+    .a,.b{
+        width: 200px;
+        height: 200px;
+    }
+    .a{
+        background-image: url("./images/test.jpg");
+        background-position: center;
+        background-size: contain;
+    }
+    .b{
+        background-color: violet;
+    }
+}
